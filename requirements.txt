@@ -1,0 +1,8 @@
+robotframework
+robotframework-requests==0.9.2
+requests
+grequests
+bs4
+mock
+pydantic
+faker
