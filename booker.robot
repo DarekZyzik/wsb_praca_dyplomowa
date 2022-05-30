@@ -1,14 +1,11 @@
 *** Settings ***
-
-Library     RequestsLibrary
-Library     python/function.py
 Resource    robot/keywords.robot
 
 Suite Setup     Run Keywords    Ping Booking        Create Token
 Suite Teardown  Run Keywords    Delete All   Check That All Bookings Are Deleted
 
-*** Test Cases ***
 
+*** Test Cases ***
 Create A 5 Books
     [Tags]  Create_Book
     Create A 5 Books
@@ -42,12 +39,3 @@ Check Search By Firstname And Lastname
 Validate All Bookings
     [Tags]  List_ALl
     List All Bookings With Specific Id
-
-
-
-
-
-
-
-
-
