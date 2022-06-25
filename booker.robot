@@ -6,7 +6,7 @@ Suite Teardown  Run Keywords    Delete All   Check That All Bookings Are Deleted
 
 
 *** Test Cases ***
-Create A 5 Books
+Create A Few Books
     [Tags]  Create_Book
     Create A 5 Books
     Get All Booking IDs

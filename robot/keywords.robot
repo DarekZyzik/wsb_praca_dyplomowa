@@ -113,7 +113,7 @@ Update Booking Partial Body
     LOG    ${booking_updated_partial}
 
 Search IDs Booking By Firstname And Lastname
-    [Documentation]     Keyword to search booking Id by firstname and lastname
+    [Documentation]     Keyword to search booking Id by firstname and lastnamef
     ${firstname}    ${lastname}    ${checkin}    ${checkout}=    Create Book
     ${response_search}=    Search ID By Name    ${firstname}    ${lastname}    ${url}
     LOG TO CONSOLE    Search :${firstname} ${lastname}

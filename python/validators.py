@@ -1,7 +1,6 @@
 from pydantic import BaseModel
 from robot.api.deco import keyword
 from datetime import date
-
 class Token(BaseModel):
     token: str
 
